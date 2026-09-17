@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>anestiiz — Portfolio</title>
+  <meta name="description" content="anestiiz portfolio — independent designer and AI creator.">
+  <link rel="icon" type="image/png" href="assets/favicon/favicon.png"><link rel="apple-touch-icon" href="assets/favicon/favicon.png">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <header>
+    <div class="wrap header-row">
+      <a class="logo" href="#top"><span class="logo-text">anestiiz</span><img class="logo-a" src="assets/anestiiz-mark.svg" alt=""></a>
+      <nav aria-label="Primary">
+        <a href="#about" data-nav="about">About</a>
+        <a href="ai.html" data-nav="ai-page">Me & AI</a>
+      </nav>
+      <div class="header-right">
+        <a class="talk-link" href="brief.html">Fill the brief <img class='icon-arrow-up light' src='Icons/Arrow Right Up.svg' alt=''></a>
+        <button class="hamburger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobileDrawer"><span></span><span></span></button>
+        </div>
+    </div>
+  </header>
+
+  <div class="drawer" id="mobileDrawer" hidden>
+    <div class="drawer-scrim" data-drawer-close></div>
+    <aside class="drawer-panel" role="dialog" aria-modal="true" aria-label="Menu">
+      <button class="drawer-close" type="button" aria-label="Close menu" data-drawer-close>×</button>
+      <div class="drawer-group-label">Work</div>
+      <a href="ai-creative.html" data-drawer-link>AI creative</a>
+      <a href="apps.html" data-drawer-link>Apps</a>
+      <a href="websites.html" data-drawer-link>Websites</a>
+      <a href="presentations.html" data-drawer-link>Presentations</a>
+      <div class="drawer-group-label">More</div>
+      <a href="#about" data-drawer-link>About</a>
+      <a href="brief.html" data-drawer-link>Fill the brief</a>
+      <a href="ai.html" class="drawer-ai" data-drawer-link><span>✳</span>How I use AI in design</a>
+    </aside>
+  </div>
+
+  <main id="top">
+    <nav class="tabs-nav" aria-label="Work sections">
+      <a href="ai-creative.html" data-target="ai"><span class="lbl">AI creative</span></a>
+      <a href="apps.html" data-target="apps"><span class="lbl">Apps</span></a>
+      <a href="websites.html" data-target="websites"><span class="lbl">Websites</span></a>
+      <a href="presentations.html" data-target="presentations"><span class="lbl">Presentations</span></a>
+      <span class="tabs-pill" aria-hidden="true"></span>
+    </nav>
+
+    <section class="hero">
+      <picture class="hero-picture">
+        <source media="(max-width: 1024px)" srcset="assets/media/hero-first-screen-mobile.png">
+        <img class="hero-bg" src="assets/media/hero-first-screen.png" alt="I design interfaces. I generate the impossible. anestiiz — independent designer and AI creator">
+      </picture>
+      <div class="hero-menu reveal" aria-label="Work sections">
+        <div class="hero-menu-inner">
+          <div class="hero-menu-eyebrow">Work · 4 sections</div>
+          <nav class="hero-tabs" aria-label="Section select">
+            <a href="ai-creative.html" data-target="ai" class="active"><span class="lbl">AI creative</span></a>
+            <a href="apps.html" data-target="apps"><span class="lbl">Apps</span></a>
+            <a href="websites.html" data-target="websites"><span class="lbl">Websites</span></a>
+            <a href="presentations.html" data-target="presentations"><span class="lbl">Presentations</span></a>
+            <span class="hero-tabs-pill" aria-hidden="true"></span>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>AI VIDEO. MOBILE APPS. WEBSITES. <b>✳</b></span>
+        <span>AI VIDEO. MOBILE APPS. WEBSITES. <b>✳</b></span>
+        <span>AI VIDEO. MOBILE APPS. WEBSITES. <b>✳</b></span>
+        <span>AI VIDEO. MOBILE APPS. WEBSITES. <b>✳</b></span>
+      </div>
+    </div>
+
+    <section id="about" class="about wrap">
+      <div class="about-intro">
+        <div>
+          <h2 class="reveal">Good design brings clarity.<br>Strong creative makes you feel.</h2>
+          <div class="about-copy reveal">
+            <p>I'm anestiiz, a UX/UI designer and AI creator. I connect product thinking with visual storytelling, and strong identity with digital products.</p>
+            <p>From the first user flow to the final frame, what matters to me is how the whole experience comes together.</p>
+          </div>
+        </div>
+        <div>
+          <div class="about-media reveal">
+            <div class="carousel" data-carousel>
+              <div class="carousel-track">
+                <div class="slide active">
+                  <video muted loop playsinline preload="metadata" poster="assets/media/about-1-poster.jpg">
+                    <source src="assets/media/about-1.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="slide">
+                  <video muted loop playsinline preload="metadata" poster="assets/media/about-2-poster.jpg">
+                    <source src="assets/media/about-2.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="slide">
+                  <video muted loop playsinline preload="metadata" poster="assets/media/about-3-poster.jpg">
+                    <source src="assets/media/about-3.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="slide">
+                  <img src="assets/media/about-1.jpg" alt="anestiiz" loading="lazy">
+                </div>
+              </div>
+              <button class="carousel-nav prev" type="button" aria-label="Previous">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M15 5L9 12L15 19" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <button class="carousel-nav next" type="button" aria-label="Next">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9 5L15 12L9 19" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <div class="carousel-dots">
+                <button class="dot active" type="button" aria-label="Slide 1"></button>
+                <button class="dot" type="button" aria-label="Slide 2"></button>
+                <button class="dot" type="button" aria-label="Slide 3"></button>
+                <button class="dot" type="button" aria-label="Slide 4"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services">
+        <div class="service reveal">
+          <div class="service-num">01 / AI VIDEOS</div>
+          <h3>AI video production</h3>
+          <div>
+            <p>Different stories, styles and formats — with a clear creative direction from the first idea to the final cut.</p>
+            <ul><li>Brand & product films</li><li>Social media advertising</li><li>Character stories & animation</li></ul>
+          </div>
+        </div>
+        <div class="service reveal">
+          <div class="service-num">02 / MOBILE APP DESIGN</div>
+          <h3>Mobile products</h3>
+          <div>
+            <p>Thoughtful flows and expressive interfaces that make a mobile product feel intuitive.</p>
+            <ul><li>App UX/UI design</li><li>Onboarding & core user flows</li><li>Design systems & prototypes</li></ul>
+          </div>
+        </div>
+        <div class="service reveal">
+          <div class="service-num">03 / WEB DESIGN</div>
+          <h3>Websites that connect</h3>
+          <div>
+            <p>A clear structure and visual identity that work equally well on desktop and mobile.</p>
+            <ul><li>Websites & landing pages</li><li>Responsive UX/UI</li><li>Interactive prototypes</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>© 2026 anestiiz &nbsp; Designed with intention.</div>
+    <a class="top" href="#top">Back to top ↑</a>
+    <a class="ai" href="ai.html">✳ How I use AI in design <img class="icon-arrow-up light" src="Icons/Arrow Right Up.svg" alt=""></a>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.hero-bg video').forEach(v => { v.playbackRate = 1.75; });
+
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+    }, {threshold:0, rootMargin:'0px 0px -8% 0px'});
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+const navBars = [
+      {el: document.querySelector('.tabs-nav'), pillSel: '.tabs-pill', pad: 8, isFixed: true},
+      {el: document.querySelector('.hero-tabs'), pillSel: '.hero-tabs-pill', pad: 8, isFixed: false}
+    ].filter(b => b.el);
+    if (navBars.length) {
+      const sectionIds = ['ai','apps','websites','presentations'];
+      const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
+      const heroForTabs = document.querySelector('.hero');
+      const heroMenuEl = document.querySelector('.hero-menu');
+      const movePill = (bar, link) => {
+        const pill = bar.el.querySelector(bar.pillSel);
+        if (!link || !pill) return;
+        const nav = bar.el.getBoundingClientRect();
+        const r = link.getBoundingClientRect();
+        const pad = parseFloat(getComputedStyle(bar.el).paddingLeft) || bar.pad;
+        pill.style.width = r.width + 'px';
+        pill.style.transform = 'translateX(' + (r.left - nav.left - pad) + 'px)';
+      };
+      const updateNav = () => {
+        const vh = window.innerHeight;
+        const centerY = vh / 2;
+        const heroPast = heroMenuEl
+          ? heroMenuEl.getBoundingClientRect().bottom < 20
+          : (!heroForTabs || heroForTabs.getBoundingClientRect().bottom <= 80);
+        let bestId = null;
+        let bestDist = Infinity;
+        sections.forEach(s => {
+          const r = s.getBoundingClientRect();
+          if (r.bottom < 0 || r.top > vh) return;
+          const midY = (r.top + r.bottom) / 2;
+          const dist = Math.abs(midY - centerY);
+          if (dist < bestDist) { bestDist = dist; bestId = s.id; }
+        });
+        navBars.forEach(bar => {
+          if (bar.isFixed) bar.el.classList.toggle('is-visible', heroPast);
+          const links = Array.from(bar.el.querySelectorAll('a[data-target]'));
+          const activeId = bestId || (bar.isFixed ? null : 'ai');
+          if (activeId) {
+            links.forEach(l => l.classList.toggle('active', l.dataset.target === activeId));
+            movePill(bar, links.find(l => l.dataset.target === activeId));
+          } else {
+            links.forEach(l => l.classList.remove('active'));
+          }
+        });
+      };
+      let ticking = false;
+      const onScroll = () => {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => { updateNav(); ticking = false; });
+      };
+      window.addEventListener('scroll', onScroll, {passive:true});
+      window.addEventListener('resize', onScroll);
+      window.addEventListener('load', () => setTimeout(updateNav, 100));
+      updateNav();
+    }
+
+    document.querySelectorAll('a.project-card[href="#"]').forEach(link => {
+      link.addEventListener('click', e => e.preventDefault());
+    });
+
+    const drawer = document.getElementById('mobileDrawer');
+    const hamburger = document.querySelector('.hamburger');
+    if (drawer && hamburger) {
+      const openDrawer = () => {
+        drawer.hidden = false;
+        requestAnimationFrame(() => drawer.classList.add('is-open'));
+        hamburger.classList.add('is-open');
+        hamburger.setAttribute('aria-expanded', 'true');
+        document.body.classList.add('is-drawer-open');
+      };
+      const closeDrawer = () => {
+        drawer.classList.remove('is-open');
+        hamburger.classList.remove('is-open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('is-drawer-open');
+        setTimeout(() => { drawer.hidden = true; }, 350);
+      };
+      hamburger.addEventListener('click', () => {
+        if (drawer.classList.contains('is-open')) closeDrawer();
+        else openDrawer();
+      });
+      drawer.querySelectorAll('[data-drawer-close]').forEach(el => {
+        el.addEventListener('click', closeDrawer);
+      });
+      drawer.querySelectorAll('[data-drawer-link]').forEach(a => {
+        a.addEventListener('click', closeDrawer);
+      });
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && drawer.classList.contains('is-open')) closeDrawer();
+      });
+    }
+
+    const requestForm = document.getElementById('requestForm');
+    if (requestForm) {
+      requestForm.addEventListener('submit', event => {
+        event.preventDefault();
+        const data = new FormData(requestForm);
+        const lang = document.documentElement.lang === 'ru' ? 'ru' : 'en';
+        const subject = lang === 'ru' ? 'Заявка с сайта anestiiz' : 'Project request from anestiiz.com';
+        const labels = lang === 'ru'
+          ? { projectType: 'Тип проекта', contactMethod: 'Способ связи', contact: 'Контакт', details: 'О проекте' }
+          : { projectType: 'Project type', contactMethod: 'Contact method', contact: 'Contact', details: 'Project details' };
+        const body = [
+          `${labels.projectType}: ${data.get('projectType') || ''}`,
+          `${labels.contactMethod}: ${data.get('contactMethod') || ''}`,
+          `${labels.contact}: ${data.get('contact') || ''}`,
+          '',
+          `${labels.details}:`,
+          `${data.get('details') || ''}`
+        ].join('\n');
+        window.location.href = `mailto:hello@anestiiz.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      });
+    }
+
+    const navLinks = document.querySelectorAll('nav a[data-nav]');
+    const setActiveNav = key => {
+      navLinks.forEach(a => a.classList.toggle('active', a.dataset.nav === key));
+    };
+    navLinks.forEach(a => a.addEventListener('click', () => setActiveNav(a.dataset.nav)));
+    const navSections = [
+      { key: 'work',  el: document.getElementById('work') },
+      { key: 'about', el: document.getElementById('about') }
+    ].filter(s => s.el);
+    if (navSections.length) {
+      const navObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const match = navSections.find(s => s.el === entry.target);
+            if (match) setActiveNav(match.key);
+          }
+        });
+      }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+      navSections.forEach(s => navObserver.observe(s.el));
+    }
+
+    document.querySelectorAll('[data-carousel]').forEach(car => {
+      const slides = [...car.querySelectorAll('.slide')];
+      const dots = [...car.querySelectorAll('.carousel-dots .dot')];
+      const prev = car.querySelector('.carousel-nav.prev');
+      const next = car.querySelector('.carousel-nav.next');
+      let idx = 0, timer = null;
+      const playIfVideo = el => {
+        const v = el && el.querySelector('video');
+        if (v) { v.currentTime = 0; v.play().catch(() => {}); }
+      };
+      const pauseIfVideo = el => {
+        const v = el && el.querySelector('video');
+        if (v) v.pause();
+      };
+      const scheduleNext = () => {
+        clearTimeout(timer);
+        const current = slides[idx];
+        const v = current.querySelector('video');
+        let delay = 5000;
+        if (v) {
+          const dur = isFinite(v.duration) && v.duration > 0 ? v.duration * 1000 : 5000;
+          delay = Math.max(3000, Math.min(dur, 12000));
+        }
+        timer = setTimeout(() => show((idx + 1) % slides.length), delay);
+      };
+      const show = i => {
+        if (i === idx) return;
+        pauseIfVideo(slides[idx]);
+        slides[idx].classList.remove('active');
+        dots[idx] && dots[idx].classList.remove('active');
+        idx = i;
+        slides[idx].classList.add('active');
+        dots[idx] && dots[idx].classList.add('active');
+        playIfVideo(slides[idx]);
+        scheduleNext();
+      };
+      prev && prev.addEventListener('click', () => show((idx - 1 + slides.length) % slides.length));
+      next && next.addEventListener('click', () => show((idx + 1) % slides.length));
+      dots.forEach((d, n) => d.addEventListener('click', () => show(n)));
+      const io = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { playIfVideo(slides[idx]); scheduleNext(); }
+          else { clearTimeout(timer); pauseIfVideo(slides[idx]); }
+        });
+      }, { threshold: 0.25 });
+      io.observe(car);
+    });
+  </script>
+</body>
+</html>
